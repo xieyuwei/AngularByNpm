@@ -1,0 +1,13 @@
+.Language__Switch {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  span {
+    padding: 2px;
+    border-bottom:1px solid transparent;
+  }
+  span.active {
+    color: $coupon-btn-color;
+    border-bottom:1px solid $coupon-btn-color;
+  }
+}
